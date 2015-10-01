@@ -51,7 +51,7 @@ input:focus {
 }
 
 .heading {
-  background-color:#357EBD;
+  background-color:#0288d1;
   color:#FFF;
   margin-bottom:1em;
   text-align:center;
@@ -63,6 +63,10 @@ input:focus {
 }
 .logo-container {
   text-align:right;
+}
+.company_logo{
+  max-width: 300px;
+  max-height: 300px;
 }
 .infos .right {
   text-align:right;
@@ -141,4 +145,8 @@ div.container{
   display: inline-block;
   position: relative;
   color: #ce0c15;
+}
+
+.full-width {
+  width: 100%;
 }

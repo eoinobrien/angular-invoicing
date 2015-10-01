@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="103.5"
+   height="133.02661"
+   id="svg3823">
+  <defs
+     id="defs3825" />
+  <metadata
+     id="metadata3828">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-271.10714,-451.56317)"
+     id="layer1">
+    <g
+       transform="translate(-24.107697,194.11825)"
+       id="g3804">
+      <path
+         d="m 307.21484,262.44492 c -3.878,0 -7,3.122 -7,7 l 0,79.5 c 0,3.878 3.122,7 7,7 l 58.3125,0 c -9.80001,0 -14.71875,-4.13958 -14.71875,-12.40625 l 0,-7.6875 17.5,0 0,5.40625 c -2e-5,1.46668 0.83331,2.18751 2.5,2.1875 l 2.90625,0 c 1.66664,10e-6 2.49997,-0.72082 2.5,-2.1875 l 0,-9.09375 c -3e-5,-1.46664 -0.83336,-2.21872 -2.5,-2.21875 l -9.59375,0 c -4.93335,3e-5 -8.43334,-1.05414 -10.5,-3.1875 -2,-2.19997 -3,-5.33955 -3,-9.40625 l 0,-13.1875 c 0,-8.26661 4.86041,-12.40618 14.59375,-12.40625 l 13.6875,0 c 9.73329,7e-5 14.8125,4.13964 14.8125,12.40625 l 0,-34.71875 c 0,-3.878 -3.122,-7 -7,-7 z m 63.40625,41.8125 c -1.66669,5e-5 -2.50002,0.72089 -2.5,2.1875 l 0,9.5 c -2e-5,1.46671 0.83331,2.21879 2.5,2.21875 l 9.40625,0 c 4.9333,4e-5 8.43329,1.02712 10.5,3.09375 2.13329,2.0667 3.18745,5.09378 3.1875,9.09375 l 0,-18.5 -17.6875,0 0,-5.40625 c -3e-5,-1.46661 -0.83336,-2.18745 -2.5,-2.1875 z"
+         id="rect3009-8"
+         style="fill:#99d420;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         x="300.44696"
+         y="381.5636"
+         id="text3005-5"
+         xml:space="preserve"
+         style="font-size:30.29401398px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0288d1;fill-opacity:1;stroke:none;font-family:Montserrat;-inkscape-font-specification:Montserrat"><tspan
+           x="300.44696"
+           y="381.5636"
+           id="tspan3007-5"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#0288d1;fill-opacity:1;font-family:Teko;-inkscape-font-specification:Teko Bold">Solucys</tspan></text>
+    </g>
+  </g>
+</svg>

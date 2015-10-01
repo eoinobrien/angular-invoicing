@@ -1,28 +1,32 @@
 angular.module('invoicing', [])
 
 // The default logo for the invoice
-.constant('DEFAULT_LOGO', 'images/metaware_logo.png')
+.constant('DEFAULT_LOGO', 'images/flat_solucys.svg')
 
 // The invoice displayed when the user first uses the app
 .constant('DEFAULT_INVOICE', {
-  tax: 13.00,
+  tax: 23.00,
   invoice_number: 10,
   customer_info: {
     name: 'Mr. John Doe',
     web_link: 'John Doe Designs Inc.',
     address1: '1 Infinite Loop',
     address2: 'Cupertino, California, US',
+    address3: '',
+    address4: '',
     postal: '90210'
   },
   company_info: {
-    name: 'Metaware Labs',
-    web_link: 'www.metawarelabs.com',
-    address1: '123 Yonge Street',
-    address2: 'Toronto, ON, Canada',
-    postal: 'M5S 1B6'
+    name: 'Solucys',
+    web_link: 'www.solucys.com',
+    address1: 'The Paddocks',
+    address2: 'Newtown,',
+    address3: 'Cahir,',
+    address4: 'Co. Tipperary, Ireland',
+    postal: 'E21 V449'
   },
   items:[
-    { qty: 10, description: 'Gadget', cost: 9.95 }
+    { qty: 5, description: 'Health and Safety Consultation', cost: 9.95 }
   ]
 })
 
@@ -117,7 +121,7 @@ angular.module('invoicing', [])
   }
 
   return service;
-  
+
 }])
 
 // Main application controller
@@ -125,7 +129,7 @@ angular.module('invoicing', [])
   function($scope, $http, DEFAULT_INVOICE, DEFAULT_LOGO, LocalStorage, Currency) {
 
   // Set defaults
-  $scope.currencySymbol = '$';
+  $scope.currencySymbol = '€';
   $scope.logoRemoved = false;
   $scope.printMode   = false;
 
