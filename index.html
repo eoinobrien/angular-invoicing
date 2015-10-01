@@ -24,7 +24,7 @@
       </div>
       <div class="col-xs-6 logo-container">
         <input type="file" id="imgInp" />
-        <img ng-hide="logoRemoved" id="company_logo" ng-src="{{ logo }}" alt="your image" width="300" />
+        <img ng-hide="logoRemoved" id="company_logo" class="company_logo" ng-src="{{ logo }}" alt="your image"/>
         <div>
           <div class="noPrint" ng-hide="printMode">
             <a ng-click="editLogo()" href >Edit Logo</a>
@@ -39,6 +39,8 @@
         <div class="input-container"><input type="text" ng-model="invoice.customer_info.web_link"/></div>
         <div class="input-container"><input type="text" ng-model="invoice.customer_info.address1"/></div>
         <div class="input-container"><input type="text" ng-model="invoice.customer_info.address2"/></div>
+        <div class="input-container"><input type="text" ng-model="invoice.customer_info.address3"/></div>
+        <div class="input-container"><input type="text" ng-model="invoice.customer_info.address4"/></div>
         <div class="input-container"><input type="text" ng-model="invoice.customer_info.postal"/></div>
         <div class="input-container" data-ng-hide='printMode'>
           <select ng-model='currencySymbol' ng-options='currency.symbol as currency.name for currency in availableCurrencies'></select>
@@ -49,6 +51,8 @@
         <div class="input-container"><input type="text" ng-model="invoice.company_info.web_link"/></div>
         <div class="input-container"><input type="text" ng-model="invoice.company_info.address1"/></div>
         <div class="input-container"><input type="text" ng-model="invoice.company_info.address2"/></div>
+        <div class="input-container"><input type="text" ng-model="invoice.company_info.address3"/></div>
+        <div class="input-container"><input type="text" ng-model="invoice.company_info.address4"/></div>
         <div class="input-container"><input type="text" ng-model="invoice.company_info.postal"/></div>
       </div>
     </div>
@@ -65,7 +69,7 @@
           <a href ng-hide="printMode" ng-click="removeItem(item)" class="btn btn-danger">[X]</a>
         </div>
         <div class="col-xs-5 input-container">
-          <input ng-model="item.description" placeholder="Description" />
+          <input ng-model="item.description" class="full-width" placeholder="Description" />
         </div>
         <div class="col-xs-2 input-container">
           <input ng-model="item.qty" value="1" size="4" ng-required ng-validate="integer" placeholder="Quantity" />
@@ -87,7 +91,7 @@
         <div class="col-xs-2 text-right">{{invoiceSubTotal() | currency: currencySymbol}}</div>
       </div>
       <div class="row">
-        <div class="col-xs-10 text-right">Tax(%): <input ng-model="invoice.tax" ng-validate="number" style="width:43px"></div>
+        <div class="col-xs-10 text-right">Tax({{invoice.tax}}%): <input ng-hide="printMode" ng-model="invoice.tax" ng-validate="number" style="width:43px"></div>
         <div class="col-xs-2 text-right">{{calculateTax() | currency: currencySymbol}}</div>
       </div>
       <div class="row">
